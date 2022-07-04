@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+    overflow: hidden;
+    background-color: #383838;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    width: 100%;
+}
+.secret-number{
+    position: absolute;
+    top: 100px;
+    border: 3px solid white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.secret-number > p {
+    font-size: 40px;
+    color: #383838;
+}
+
+section{
+    border: 4px solid white;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 20px;
+}
+
+section > p{
+    font-size: 20px;
+    color: white;
+}
+
+section > input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+section > button{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
